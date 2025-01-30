@@ -10,14 +10,14 @@ The dataset contained the following financial information of the borrowers:
 * Number of accounts
 * Derogatory marks
 * Total debt. 
-The target variable (y) represents the loan status, indicating whether a loan is classified as 'healthy' or 'high-risk.' 
+<p>The target variable (y) represents the loan status, indicating whether a loan is classified as 'healthy' or 'high-risk.' </p>
 
 ## Machine Learning Model Used:
 Logistic Regression, a classification algorithm, was used for this analysis. It estimates the outcome based on the input features. 
 
 ## Stages of Machine Learning Process:
 * **Data Preparation:** The Data was loaded into a Pandas DataFrame. The features (X) and target variable (y) were separated. Then, the data was split into training and testing sets using train_test_split().
-* **Model selection and training:** Logistic Regression was chosen as the lassification algorithm. The model was initialized with random_state= 1 and trained using fit() on the training data. Predictions were made on the test dataset using predict().
+* **Model selection and training:** Logistic Regression was chosen as the lassification algorithm. The model was initialized with random_state= 1, max_iter=200 and trained using fit() on the training data. Predictions were made on the test dataset using predict().
 
 * **Evaluation:** The model was evaluated using a confusion matrix and a classification report. Key performance metrics like precision, recall and accuracy were analyzed
 
