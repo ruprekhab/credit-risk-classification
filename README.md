@@ -29,14 +29,12 @@ Logistic Regression, a classification algorithm, was used for this analysis. It 
 * Recall score:    
     - Healthy loan: 0.99
     - High Risk: 0.94
-
-## Conclusion:         
-The Logistic Regression model performed exceptionally well, achieving 99% overall accuracy. 
-
+<p> With an accuracy score of 99%, the Logistic Regression model performed exceptionally well. 
 <p> For healthy loans, with a perfect precision score of 100% and almost perfect recall score of 99%, the model almost never misclassified healthy loans.</p>
-
 <p> For high risk loans, with a precision score of 84% and recall score of 94%, the model did predict some false positives but is still remained highly effective in identifying high risk loans.</p>  
-<p> Given the high accuracy and balanced performance, Logistic Regression is a strong choice for this task. </p>
+<p>Due to its high accuracy and balanced performance, Logistic Regression is a strong choice for this classification task.
+
+
 
 
 
