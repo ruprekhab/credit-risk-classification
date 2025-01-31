@@ -3,9 +3,9 @@
 The objective of this analysis is to train and evaluate a machine learning model to classify loans as either 'healthy' or 'high-risk' based on borrowers' financial data.
 
 ## Files and Folders:
-credit_risk_classification.ipynb: Jupyter Notebook containing the complete machine learning model analysis, including data preprocessing, training, evaluation, and results.
-lending_data.csv: The original dataset with borrower financial details used for training and testing the model.
-installed_packages.txt: A list of all installed Python packages in the environment to ensure reproducibility and consistent execution across different setups.
+* credit_risk_classification.ipynb: Jupyter Notebook containing the complete machine learning model analysis, including data preprocessing, training, evaluation, and results.
+* lending_data.csv: The original dataset with borrower financial details used for training and testing the model.
+* installed_packages.txt: A list of all installed Python packages in the environment to ensure reproducibility and consistent execution across different setups.
 
 
 ## About the Dataset:
