@@ -1,6 +1,13 @@
 # credit-risk-classification
 ## Purpose of the analysis:
 The objective of this analysis is to train and evaluate a machine learning model to classify loans as either 'healthy' or 'high-risk' based on borrowers' financial data.
+
+## Files and Folders:
+credit_risk_classification.ipynb: Jupyter Notebook containing the complete machine learning model analysis, including data preprocessing, training, evaluation, and results.
+lending_data.csv: The original dataset with borrower financial details used for training and testing the model.
+installed_packages.txt: A list of all installed Python packages in the environment to ensure reproducibility and consistent execution across different setups.
+
+
 ## About the Dataset:
 The dataset contained the following financial information of the borrowers:
 * Loan size
@@ -33,6 +40,12 @@ Logistic Regression, a classification algorithm, was used for this analysis. It 
 <p> For healthy loans, with a perfect precision score of 100% and almost perfect recall score of 99%, the model almost never misclassified healthy loans.</p>
 <p> For high risk loans, with a precision score of 84% and recall score of 94%, the model did predict some false positives but is still remained highly effective in identifying high risk loans.</p>  
 <p>Due to its high accuracy and balanced performance, Logistic Regression is a strong choice for this classification task.
+
+## Set Up:
+
+To download the required libraries, run the following in your console:
+
+* pip install -r installed_packages.txt
 
 
 
